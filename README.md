@@ -1,51 +1,54 @@
-🛍️Frontend Web Design
-DevHub Internship — Task 01
+# 🛍️ Frontend Web Design - DevHub Intern 
 
-This is a modern and fully responsive e-commerce website built using just HTML, CSS, and plain JavaScript — no frameworks! It simulates a real online shopping experience where users can browse products, add them to a cart, search, filter by category, and even subscribe to a newsletter.
+A modern, responsive e-commerce frontend built using **HTML**, **CSS**, and **vanilla JavaScript**. This project simulates a real online store interface, complete with a product catalog, shopping cart, category sidebar, countdown deals, search functionality, and responsive design — all handled on the client side.
 
-🚀 What’s Inside
-🛒 Working Shopping Cart
-Users can add items to a cart, change quantities, or remove them. The cart even remembers what you added using localStorage, so it stays there if you refresh the page.
+---
 
-🧭 Category Sidebar
-Filter products by category easily — no reloads, just smooth filtering.
+## 🚀 Features
 
-🔎 Live Search
-A functional search bar that helps users find what they need by name or description.
+- 🛒 Interactive shopping cart with localStorage support  
+- 🧭 Sidebar category filtering  
+- 🔎 Product search functionality  
+- ⏳ Countdown timer for promotions  
+- 🧾 Newsletter subscription with email validation  
+- 💬 Toast notifications for user feedback  
+- 📱 Fully responsive design using CSS media queries  
+- ⭐ Product ratings, discounts, and hover effects
 
-⏳ Countdown Deals
-Real-time countdown timer shows time left for special offers. It resets once the time runs out.
+---
 
-📬 Newsletter Signup
-Validates email format and shows a success or error message when users try to subscribe.
+## 📁 File Structure
+├── index.html # Main page structure and layout
+├── styles.css # Custom CSS for design, layout, responsiveness
+├── script.js # JavaScript for interactivity, cart, timer, etc.
 
-💬 Toast Messages
-Instant feedback when users perform actions — like adding to cart or entering an invalid email.
 
-📱 Mobile-Friendly Design
-The layout adjusts perfectly on mobile, tablet, or desktop. Even the sidebar and nav menu respond based on screen size.
+---
 
-⭐ Nice UI Touches
-Product ratings, discounts, hover animations, smooth transitions — all the little things that make a shopping site feel polished.
+## 🧪 Functional Overview
 
-📁 File Overview
-rust
-Copy
-Edit
-📦 Project Files
-├── index.html       → Main webpage layout
-├── styles.css       → Custom CSS for layout, theme, and responsiveness
-├── script.js        → JavaScript for cart, filters, search, timer, etc.
-🧪 Key Functionality (Simplified)
-Add and remove items from a cart
+### 🛒 Shopping Cart
+- Add items from product listings
+- View items in animated cart sidebar
+- Modify quantity or remove items
+- Cart data saved in localStorage
 
-Search products live while typing
+### 🔍 Product Search
+- Search bar filters based on name/description
+- Search term saved and redirected to category page
 
-See a deal timer counting down
+### ⏰ Countdown Timer
+- Live timer for deals/offers
+- Resets automatically after countdown expires
 
-Subscribe to a newsletter with email validation
+### 📬 Newsletter Subscription
+- Validates email format
+- Simulates subscription with success/error feedback
 
-All of it looks great on phones and desktops
+### 📱 Responsive Design
+- Grid layout and sidebar adapt to screen size
+- Hamburger nav available on small screens
+- Tested on desktop, tablet, and mobile
 
-👨‍💻 Why This Project Matters
-This project shows how much you can do with just HTML, CSS, and JavaScript, without relying on big frameworks. It’s a great example of building a functional UI with a clean structure and good user experience — something you'd expect from a real online store.
+---
+
